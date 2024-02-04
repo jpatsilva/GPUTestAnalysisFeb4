@@ -2,9 +2,9 @@
 {
     public class GPU
     {
-        public string? Type { get; set; }
-        public string? Parameter { get; set; }
-        public string? Expression { get; set; }
+        public required string? Type { get; set; }
+        public required string? Parameter { get; set; }
+        public required string? Expression { get; set; }
         public string? Destription { get; set; }
     }
 }
